@@ -2,12 +2,12 @@
   padding: 20px;
   font-family: "Neucha", cursive;
 }
-.Contact h1{
+.Contact h1 {
   padding: 20px;
   font-family: "Neucha", cursive;
-  background-color: rgb(41,54,71);
+  background-color: rgb(41, 54, 71);
   display: inline-block;
-  color: rgb(245,245,245);
+  color: rgb(245, 245, 245);
   font-weight: 500;
 }
 
@@ -30,7 +30,7 @@
 }
 .Contact input:focus {
   outline: none;
-  border: solid 2px rgb(41,54,71);
+  border: solid 2px rgb(41, 54, 71);
 }
 
 .Contact textarea {
@@ -46,7 +46,7 @@
 }
 .Contact textarea:focus {
   outline: none;
-  border: solid 2px rgb(41,54,71);
+  border: solid 2px rgb(41, 54, 71);
 }
 
 .Contact label {
@@ -60,7 +60,7 @@
 #email-submit {
   width: 100px;
 
-  background-color: rgb(41,54,71);
+  background-color: rgb(41, 54, 71);
   border: none;
   color: white;
   /* font-family: Georgia, "Times New Roman", Times, serif; */
@@ -105,7 +105,6 @@
 .contact-footer .fab {
   font-size: 2rem;
   color: rgb(189, 187, 187);
-  
 }
 
 .contact-footer .fab:hover {
@@ -113,39 +112,39 @@
   color: rgb(216, 216, 216);
 }
 
-.contact-footer{
+.contact-footer {
   width: 100%;
-  background-color:rgb(41,54,71) ;
+  background-color: rgb(41, 54, 71);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
 }
-.footer-left{
-  color: rgb(245,245,245);
+.footer-left {
+  color: rgb(245, 245, 245);
   text-align: left;
   padding: 10px;
 }
-.footer-left p{
+.footer-left p {
   /* margin-bottom:-10px ; */
- color: rgb(182, 182, 182);
- font-family: "Neucha", cursive;
- margin:5px ;
+  color: rgb(182, 182, 182);
+  font-family: "Neucha", cursive;
+  margin: 5px;
 }
 
 @media only screen and (max-width: 450px) {
-  .contact-footer{
-
+  .Contact {
+    padding: 5px 20px;
+  }
+  .contact-footer {
     justify-content: center;
   }
-  .footer-left{
+  .footer-left {
     justify-self: flex-start !important;
     width: 100%;
   }
-  .footer-right{
+  .footer-right {
     justify-self: center !important;
   }
-
-
 }
