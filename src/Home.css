@@ -1,0 +1,242 @@
+.Home {
+  padding: 50px;
+}
+
+.Home .main-block {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  /* background-image:  linear-gradient(rgb(110, 110, 110),rgb(70, 70, 70),rgb(31, 31, 31)); */
+  /* border-top-right-radius: 100px; */
+}
+.Home .upper-block {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  overflow: hidden;
+  position: relative;
+}
+.Home .upper-block .frame-container
+{
+  position: relative;
+  width: 627px;
+  max-width: 100%;
+  height: 100%;
+}
+.Home .upper-block .image-me {
+  height: 100px;
+  width: 90px;
+  position: absolute;
+  top:36px;
+  left: 56px;
+}
+.Home .upper-block .image-frame
+{
+  height:165px;
+  width: 121px;
+  position: absolute;
+  top:-15px;
+  left: 40px;
+  filter: brightness(0.5);
+
+}
+
+.Home .upper-block .home-info{
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Home .upper-block .home-info h1 {
+  font-family: "Neucha", cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px -20px;
+}
+
+.Home .upper-block .home-info p {
+  font-family: "Neucha", cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px -20px;
+}
+
+.Home .lower-block {
+  height: 40%;
+  display: flex;
+
+  background-color: rgb(41, 54, 71);
+  /* background-image: linear-gradient(rgb(48, 49, 49),rgb(90, 90, 90),rgb(122, 122, 122)); */
+  background-color: rgb(245,245,245);
+}
+
+.Home .left-block {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(41, 54, 71);
+}
+.Home .right-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.Home .right-block div {
+  padding-right: 10px;
+  text-align: left;
+}
+
+.Home .right-block p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(49,49,49);
+  font-weight: 600;
+  font-size: 1.2rem;
+  /* text-align: right; */
+}
+
+.Home .right-block i {
+  margin-left: 30px;
+  font-size: 1.4rem;
+  text-align: right;
+  color: rgb(49,49,49);
+}
+
+.Home .right-block .recent-frameworks {
+  color: rgba(245, 245, 245, 1);
+  margin-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+
+  height: 120px;
+  margin: auto 10px;
+}
+.Home .right-block .recent-frameworks h1 {
+  color: rgba(245, 245, 245, 1);
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background-color: rgb(41, 54, 71);
+  padding: 10px;
+
+  align-items: center;
+  font-size: 2rem;
+}
+.Home .right-block .recent-frameworks p {
+  color: rgb(49,49,49);
+  font-size: 0.8rem;
+}
+
+.Home .right-block .recent-frameworks .down-right {
+  text-align: right;
+}
+
+.Home .technology {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+@media only screen and (max-width: 900px) {
+  .Home {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Home {
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+  .Home .main-block {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 700px;
+    /* border-top-right-radius: 100px; */
+  }
+  .Home .upper-block .home-info{
+    position: absolute;
+    top: 205px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Home .upper-block {
+    height: 50%;
+    display: block;
+    text-align: center;
+  }
+  .Home .lower-block {
+    height: 50%;
+  }
+
+  .Home .right-block {
+    width: 100%;
+    display: block;
+    /* align-items: center; */
+  }
+
+  .Home .technology {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -10px;
+  }
+
+  .Home .right-block .recent-frameworks h1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .Home .upper-block .home-info h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0px 0px;
+    /* width: 300px; */
+  }
+
+  .Home .upper-block .home-info p {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .Home .upper-block .image-me {
+
+    top:32px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .Home .upper-block .image-frame
+{
+  top:-20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+}
+
+.centered-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 1rem;
+  font-family: "Neucha", cursive;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+  padding: 10px;
+}
+
+.welcome-message i {
+  color: rgb(66, 66, 66);
+}
+.background-welcome{
+  width: 800px;
+  max-width: 90%;
+  height: 400px;
+}

@@ -1,0 +1,151 @@
+.Contact {
+  padding: 20px;
+  font-family: "Neucha", cursive;
+}
+.Contact h1{
+  padding: 20px;
+  font-family: "Neucha", cursive;
+  background-color: rgb(41,54,71);
+  display: inline-block;
+  color: rgb(245,245,245);
+  font-weight: 500;
+}
+
+.Contact form {
+  margin: auto auto;
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Contact input {
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+  font-family: "Neucha", cursive;
+}
+.Contact input:focus {
+  outline: none;
+  border: solid 2px rgb(41,54,71);
+}
+
+.Contact textarea {
+  display: block;
+  width: 80%;
+  height: 30px;
+  margin: 10px auto;
+  padding: 10px;
+  height: 100px;
+  resize: none;
+  border-radius: 5px;
+  border: solid 2px black;
+}
+.Contact textarea:focus {
+  outline: none;
+  border: solid 2px rgb(41,54,71);
+}
+
+.Contact label {
+  font-weight: 800;
+  align-self: auto;
+}
+.Contact .fa-at {
+  margin-right: 10px;
+}
+
+#email-submit {
+  width: 100px;
+
+  background-color: rgb(41,54,71);
+  border: none;
+  color: white;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#email-submit:hover {
+  cursor: pointer;
+
+  font-size: 1.1rem;
+}
+
+.Contact .fa-envelope {
+  margin-right: 10px;
+}
+
+.Contact #disabled {
+  background-color: gray;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100px;
+}
+.Contact .far {
+  margin-right: 10px;
+}
+
+.fa-user-friends {
+  margin-right: 10px;
+}
+
+.social-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  padding: 10px;
+}
+.contact-footer .fab {
+  font-size: 2rem;
+  color: rgb(189, 187, 187);
+  
+}
+
+.contact-footer .fab:hover {
+  cursor: pointer;
+  color: rgb(216, 216, 216);
+}
+
+.contact-footer{
+  width: 100%;
+  background-color:rgb(41,54,71) ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+.footer-left{
+  color: rgb(245,245,245);
+  text-align: left;
+  padding: 10px;
+}
+.footer-left p{
+  /* margin-bottom:-10px ; */
+ color: rgb(182, 182, 182);
+ font-family: "Neucha", cursive;
+ margin:5px ;
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-footer{
+
+    justify-content: center;
+  }
+  .footer-left{
+    justify-self: flex-start !important;
+    width: 100%;
+  }
+  .footer-right{
+    justify-self: center !important;
+  }
+
+
+}

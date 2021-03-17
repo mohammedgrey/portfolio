@@ -1,0 +1,43 @@
+.Project {
+  width: 310px;
+  height: 190px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
+  border-radius: 10px;
+  margin: 20px;
+  align-self: flex-start;
+  font-family: "Neucha", cursive;
+  /* border: 2px solid rgb(51,51,51); */
+}
+
+.Project img {
+  width: 100%;
+  height: 100%;
+}
+
+.Project p {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(245, 245, 245);
+  margin: 0px 0px;
+  font-weight: 500;
+}
+
+.Project:hover {
+
+}
+
+@media only screen and (max-width: 700px) {
+  .Project {
+    width: 300px;
+    height: 180px;
+    margin: 15px;
+  }
+}

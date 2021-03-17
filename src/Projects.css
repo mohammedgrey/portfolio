@@ -1,0 +1,24 @@
+.Projects {
+  padding: 50px;
+}
+
+.Projects .main-block {
+  width: 100%;
+  display: table;
+  background-color: rgb(245, 245, 245);
+  align-items: flex-start;
+  justify-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .Projects {
+    padding: 0px;
+  }
+
+  .Projects .main-block {
+    background-color: white;
+  }
+}
