@@ -53,7 +53,7 @@ export default function SimpleModal(props) {
         </SimplePopper>
       }
       <Modal open={open} onClose={handleClose} aria-labelledby="simple-modal-title" aria-describedby="simple-modal-description">
-        <div style={modalStyle} className={classes.paper}>
+        <div style={{ ...modalStyle, position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)" }} className={classes.paper}>
           {props.children}
         </div>
       </Modal>
