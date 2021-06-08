@@ -10,6 +10,9 @@ const Project = (props) => {
     <div className="Project">
       <img src={props.image} alt="broken"></img>
       <p>{props.title}</p>
+      <div className="project-type-class">
+        <h4>{props.type}</h4>
+      </div>
 
       {props.link && (
         <SimplePopper

@@ -14,6 +14,24 @@ export default function ProjectDetails({ project }) {
       >
         {project.breif}
       </p>
+      {project.API !== null && (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "white",
+            backgroundColor: "#333333",
+            padding: "10px 20px",
+            margin: "10px",
+            display: "inline-block",
+            textDecoration: "none",
+          }}
+          className="API-class"
+          href={project.API}
+        >
+          API
+        </a>
+      )}
       <h3
         style={{
           color: "rgb(51,51,51)",
@@ -37,7 +55,6 @@ export default function ProjectDetails({ project }) {
           </p>
         );
       })}
-
       <h3
         style={{
           color: "rgb(51,51,51)",

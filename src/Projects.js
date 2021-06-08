@@ -8,11 +8,9 @@ const Projects = (props) => {
   return (
     <div className="Projects">
       <div className="main-block">
-        <Project {...props} link="https://createandshare.netlify.app/" title="Create and Share" image={require("./images/cands.png")} project={projects[0]} />
-
-        <Project {...props} link="https://izihandmade.web.app/" title="IzI Handmade" image={require("./images/izi.png")} project={projects[1]} />
-        <Project {...props} title="Spotify Clone" image={require("./images/spotify.png")} project={projects[2]} />
-        {/* link="https://github.com/FatemaFawzy/Frontend-Team" */}
+        {projects.map((project) => {
+          return <Project {...props} link={project.link} title={project.title} image={project.image} type={project.type} project={project.details} />;
+        })}
       </div>
     </div>
   );
