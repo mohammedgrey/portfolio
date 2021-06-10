@@ -48,7 +48,7 @@ export default function ProjectDetails({ project }) {
           }}
           target="_blank"
           rel="noopener noreferrer"
-          href={project.PDF}
+          href={require(`./pdfs/${project.PDF}`)}
         >
           <i className="fas fa-file-pdf" style={{ marginRight: "5px" }}></i> Report
         </a>

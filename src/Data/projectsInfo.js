@@ -14,7 +14,7 @@ const projects = [
       },
       API: "https://lookme-up.herokuapp.com/",
       carousel: null,
-      PDF: "https://drive.google.com/file/d/16SAG-_NOjTmeUvLrqVTWT9SjU9I7ZczV/view?usp=sharing",
+      PDF: "SearchEngine.pdf",
     },
   },
   {
@@ -58,7 +58,7 @@ const projects = [
         "https://res.cloudinary.com/dxome9kh1/image/upload/v1623334296/Portfolio/EgySchoolsCarousel%20/5_exwbhs.png",
         "https://res.cloudinary.com/dxome9kh1/image/upload/v1623334296/Portfolio/EgySchoolsCarousel%20/6_nmnqcl.png",
       ],
-      PDF: "https://drive.google.com/file/d/1kG9UqkNPq5M0eP-Y4h_8wRlksfYqYdqt/view?usp=sharing",
+      PDF: "Datatec.pdf",
     },
   },
   {
