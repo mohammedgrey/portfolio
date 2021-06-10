@@ -6,7 +6,7 @@ const projects = [
     link: "https://lookkmeup.web.app/",
     image: "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137489/Portfolio/lookmeup_le7lcj.png",
     details: {
-      breif: "A google-like mini search engine application with 5k crawled and indexed pages. Worked with 4 other members on both the backend and frontend.",
+      breif: "A google-like mini search engine application with 5k crawled and indexed pages. Worked with 3 other members on both the backend and frontend.",
       techs: ["ReactJS", "Spring Boot", "MongoDB"],
       git: {
         client: "https://github.com/mohammedgrey/Search-Engine",
