@@ -49,6 +49,10 @@ const Home = () => {
                   <i className="fab fa-node-js"></i>
                 </div>
                 <div className="technology">
+                  <p>Spring Boot</p>
+                  <i className="fab fa-java"></i>
+                </div>
+                <div className="technology">
                   <p>Flutter</p>
                   <i className="fas fa-mobile-alt"></i>
                 </div>
