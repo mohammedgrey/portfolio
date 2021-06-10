@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f28d82539ff5154a9c36dbe448f3d6c2",
+    "revision": "189e38483382bb2b350cd0b99bdce339",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3f7d2d74c9a472119049",
+    "revision": "111a967161ad4ab0e6d0",
     "url": "/portfolio/static/css/2.3fc42fd8.chunk.css"
   },
   {
-    "revision": "39973fe111443d70e95f",
+    "revision": "7103a5f86f532a75b99a",
     "url": "/portfolio/static/css/main.7a3f6655.chunk.css"
   },
   {
-    "revision": "3f7d2d74c9a472119049",
-    "url": "/portfolio/static/js/2.4d14bb3e.chunk.js"
+    "revision": "111a967161ad4ab0e6d0",
+    "url": "/portfolio/static/js/2.2d0d9c78.chunk.js"
   },
   {
     "revision": "28482eb98f760960ada741568b6fc24d",
-    "url": "/portfolio/static/js/2.4d14bb3e.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.2d0d9c78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39973fe111443d70e95f",
-    "url": "/portfolio/static/js/main.f9c7c071.chunk.js"
+    "revision": "7103a5f86f532a75b99a",
+    "url": "/portfolio/static/js/main.8826e147.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "0728c4e0f84909e51e1e36dc028dd278",
+    "url": "/portfolio/static/media/Datatec.0728c4e0.pdf"
+  },
+  {
+    "revision": "0efaa5a6ac77e65977dc69d784c4c0e8",
+    "url": "/portfolio/static/media/SearchEngine.0efaa5a6.pdf"
   },
   {
     "revision": "ea46f7863bfbeea371202ef813556aa1",
