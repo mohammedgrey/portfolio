@@ -1,8 +1,11 @@
 import React from "react";
+import useWindowDimensions from "./CustomHooks/useWindowDimensions";
+import SlideShow from "./materialUI/SlideShow";
 
 export default function ProjectDetails({ project }) {
+  const dimensions = useWindowDimensions();
   return (
-    <div style={{ fontFamily: "Neucha" }}>
+    <div style={{ fontFamily: "Neucha", height: project.carousel ? `${dimensions.height - 80}px` : "", overflowY: project.carousel ? "scroll" : "", paddingRight: project.carousel ? "20px" : "" }}>
       <p
         style={{
           color: "rgb(51,51,51)",
@@ -32,6 +35,24 @@ export default function ProjectDetails({ project }) {
           API
         </a>
       )}
+
+      {project.PDF && (
+        <a
+          style={{
+            color: "white",
+            backgroundColor: "#ea4335",
+            padding: "10px 20px",
+            margin: "10px",
+            display: "inline-block",
+            textDecoration: "none",
+          }}
+          target="_blank"
+          rel="noopener noreferrer"
+          href={project.PDF}
+        >
+          <i className="fas fa-file-pdf" style={{ marginRight: "5px" }}></i> Report
+        </a>
+      )}
       <h3
         style={{
           color: "rgb(51,51,51)",
@@ -55,13 +76,15 @@ export default function ProjectDetails({ project }) {
           </p>
         );
       })}
-      <h3
-        style={{
-          color: "rgb(51,51,51)",
-        }}
-      >
-        <i className="fab fa-github"></i> GitHub Repositories
-      </h3>
+      {(project?.git?.client || project?.git?.server) && (
+        <h3
+          style={{
+            color: "rgb(51,51,51)",
+          }}
+        >
+          <i className="fab fa-github"></i> GitHub Repositories
+        </h3>
+      )}
       {project.git.client && (
         <p
           onClick={() => {
@@ -95,6 +118,12 @@ export default function ProjectDetails({ project }) {
         >
           <i className="fas fa-code-branch"></i> Server
         </p>
+      )}
+
+      {project.carousel && (
+        <div style={{ backgroundColor: "#f1f1f1", marginTop: "20px", border: "3px solid #333333" }}>
+          <SlideShow images={project.carousel} />
+        </div>
       )}
     </div>
   );
