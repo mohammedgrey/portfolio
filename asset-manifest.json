@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8e56c104.chunk.css",
+    "main.css": "/portfolio/static/css/main.72d75d74.chunk.css",
     "main.js": "/portfolio/static/js/main.86bd225c.chunk.js",
     "main.js.map": "/portfolio/static/js/main.86bd225c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -9,10 +9,10 @@
     "static/js/2.2d0d9c78.chunk.js": "/portfolio/static/js/2.2d0d9c78.chunk.js",
     "static/js/2.2d0d9c78.chunk.js.map": "/portfolio/static/js/2.2d0d9c78.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a649291f2530ef0f5a7888df83867525.js": "/portfolio/precache-manifest.a649291f2530ef0f5a7888df83867525.js",
+    "precache-manifest.1e2fa21dc343cce64a9c15ce2e9a9c6b.js": "/portfolio/precache-manifest.1e2fa21dc343cce64a9c15ce2e9a9c6b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3fc42fd8.chunk.css.map": "/portfolio/static/css/2.3fc42fd8.chunk.css.map",
-    "static/css/main.8e56c104.chunk.css.map": "/portfolio/static/css/main.8e56c104.chunk.css.map",
+    "static/css/main.72d75d74.chunk.css.map": "/portfolio/static/css/main.72d75d74.chunk.css.map",
     "static/js/2.2d0d9c78.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2d0d9c78.chunk.js.LICENSE.txt",
     "static/media/Datatec.pdf": "/portfolio/static/media/Datatec.0728c4e0.pdf",
     "static/media/SearchEngine.pdf": "/portfolio/static/media/SearchEngine.0efaa5a6.pdf",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.3fc42fd8.chunk.css",
     "static/js/2.2d0d9c78.chunk.js",
-    "static/css/main.8e56c104.chunk.css",
+    "static/css/main.72d75d74.chunk.css",
     "static/js/main.86bd225c.chunk.js"
   ]
 }
