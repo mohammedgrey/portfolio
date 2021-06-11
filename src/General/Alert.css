@@ -2,10 +2,13 @@
   position: fixed;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   width: 12em;
   height: 3em;
-  margin-top: -1.5em; /*set to a negative number 1/2 of your height*/
-  margin-left: -6em; /*set to a negative number 1/2 of your width*/
+  /* margin-top: -1.5em;  */
+  /*set to a negative number 1/2 of your height*/
+  /* margin-left: -6em;  */
+  /*set to a negative number 1/2 of your width*/
 
   text-align: center;
   z-index: 3000;
