@@ -5,7 +5,14 @@ import SlideShow from "./materialUI/SlideShow";
 export default function ProjectDetails({ project }) {
   const dimensions = useWindowDimensions();
   return (
-    <div style={{ fontFamily: "Neucha", height: project.carousel ? `${dimensions.height - 80}px` : "", overflowY: project.carousel ? "scroll" : "", paddingRight: project.carousel ? "20px" : "" }}>
+    <div
+      style={{
+        fontFamily: "Neucha",
+        height: project.carousel ? `${dimensions.height - 80}px` : "",
+        overflowY: project.carousel ? "scroll" : "",
+        paddingRight: project.carousel ? "15px" : "",
+      }}
+    >
       <p
         style={{
           color: "rgb(51,51,51)",
@@ -13,6 +20,7 @@ export default function ProjectDetails({ project }) {
           padding: "0px 20px",
           fontWeight: "600",
           borderLeft: "4px solid rgb(51,51,51)",
+          overflowWrap: "break-word",
         }}
       >
         {project.breif}
@@ -66,7 +74,7 @@ export default function ProjectDetails({ project }) {
             key={tech}
             style={{
               color: "white",
-              backgroundColor: "rgb(41,54,71)",
+              backgroundColor: "rgb(41, 54, 71)",
               padding: "10px 20px",
               margin: "10px",
               display: "inline-block",
@@ -76,7 +84,7 @@ export default function ProjectDetails({ project }) {
           </p>
         );
       })}
-      {(project?.git?.client || project?.git?.server) && (
+      {(project?.git?.client || project?.git?.server || project?.git?.both) && (
         <h3
           style={{
             color: "rgb(51,51,51)",
@@ -117,6 +125,23 @@ export default function ProjectDetails({ project }) {
           }}
         >
           <i className="fas fa-code-branch"></i> Server
+        </p>
+      )}
+      {project.git.both && (
+        <p
+          onClick={() => {
+            window.open(project.git.both);
+          }}
+          style={{
+            color: "white",
+            backgroundColor: "rgb(51,51,51)",
+            padding: "10px 20px",
+            margin: "10px",
+            display: "inline-block",
+            cursor: "pointer",
+          }}
+        >
+          <i className="fas fa-code-branch"></i> Source Code
         </p>
       )}
 

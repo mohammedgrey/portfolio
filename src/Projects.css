@@ -1,5 +1,6 @@
 .Projects {
-  padding: 50px;
+  padding-block: 20px;
+  padding-inline: 50px;
 }
 
 .Projects .main-block {
@@ -15,7 +16,7 @@
 
 @media only screen and (max-width: 700px) {
   .Projects {
-    padding: 0px;
+    padding: 10px;
   }
 
   .Projects .main-block {

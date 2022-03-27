@@ -17,7 +17,12 @@ const Home = () => {
         <div className="main-block">
           <div
             className="upper-block"
-            style={{ backgroundImage: `url(${require("./images/background.jpg")})`, backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundPositionY: "bottom" }}
+            style={{
+              backgroundImage: `url(${require("./images/background.jpg")})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundPositionY: "bottom",
+            }}
           >
             <div className="home-info">
               <p>Hello, I am</p>

@@ -2,13 +2,16 @@
   padding: 20px;
   font-family: "Neucha", cursive;
 }
-.Contact h1 {
+.Contact h1,
+.headerText {
   padding: 20px;
   font-family: "Neucha", cursive;
-  background-color: rgb(41, 54, 71);
+  background-color: #404040;
   display: inline-block;
   color: rgb(245, 245, 245);
   font-weight: 500;
+  max-width: 500px;
+  margin: 0;
 }
 
 .Contact form {
@@ -17,6 +20,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
 }
 .Contact input {
   display: block;
@@ -24,13 +28,13 @@
   height: 40px;
   margin: 10px auto;
   padding: 0px 10px;
-  border-radius: 5px;
-  border: solid 2px black;
+  border-radius: 2px;
+  border: solid 1px black;
   font-family: "Neucha", cursive;
 }
 .Contact input:focus {
   outline: none;
-  border: solid 2px rgb(41, 54, 71);
+  border: solid 2px #404040;
 }
 
 .Contact textarea {
@@ -41,12 +45,12 @@
   padding: 10px;
   height: 100px;
   resize: none;
-  border-radius: 5px;
-  border: solid 2px black;
+  border-radius: 2px;
+  border: solid 1px black;
 }
 .Contact textarea:focus {
   outline: none;
-  border: solid 2px rgb(41, 54, 71);
+  border: solid 2px #404040;
 }
 
 .Contact label {
@@ -60,7 +64,7 @@
 #email-submit {
   width: 100px;
 
-  background-color: rgb(41, 54, 71);
+  background-color: #404040;
   border: none;
   color: white;
   /* font-family: Georgia, "Times New Roman", Times, serif; */
@@ -114,7 +118,7 @@
 
 .contact-footer {
   width: 100%;
-  background-color: rgb(41, 54, 71);
+  background-color: #404040;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -136,6 +140,10 @@
 @media only screen and (max-width: 450px) {
   .Contact {
     padding: 5px 20px;
+  }
+  .Contact h1,
+  .headerText {
+    font-size: medium;
   }
   .contact-footer {
     justify-content: center;

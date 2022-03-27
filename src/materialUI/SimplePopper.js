@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     // border: "1px solid",
     padding: theme.spacing(1),
-    backgroundColor: "rgb(41,54,71)",
+    backgroundColor: "#404040",
     color: "white",
     fontFamily: "Neucha",
   },
@@ -28,7 +28,14 @@ export default function SimplePopper(props) {
 
   return (
     <div>
-      <button style={props.buttonStyles} {...props} aria-describedby={id} type="button" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <button
+        style={props.buttonStyles}
+        {...props}
+        aria-describedby={id}
+        type="button"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         {props.children}
       </button>
       <Popper id={id} open={open} anchorEl={anchorEl}>

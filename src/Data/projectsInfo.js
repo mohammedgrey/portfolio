@@ -1,16 +1,40 @@
 const projects = [
   {
+    id: 6,
+    title: "Dummy Online Store",
+    type: "Online Store",
+    link: "https://dummyonlinestore.herokuapp.com/",
+    image:
+      "https://res.cloudinary.com/dxome9kh1/image/upload/v1625888559/Portfolio/dummyOnlineStore_mmnrbr.png",
+    details: {
+      breif:
+        "A website that uses a dummy REST API to load products and add products to a shopping cart.",
+      techs: ["ReactJS", "NextJS", "sass"],
+      git: {
+        client: null,
+        server: null,
+        both: "https://github.com/mohammedgrey/dummy-online-store",
+      },
+      API: "https://dummyonlinestore.herokuapp.com/api/products",
+      carousel: null,
+      PDF: null,
+    },
+  },
+  {
     id: 1,
     title: "Look me up",
     type: "Search Engine",
     link: "https://lookkmeup.web.app/",
-    image: "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137489/Portfolio/lookmeup_le7lcj.png",
+    image:
+      "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137489/Portfolio/lookmeup_le7lcj.png",
     details: {
-      breif: "A google-like mini search engine application with 5k crawled and indexed pages. Worked with 3 other members on both the backend and frontend.",
+      breif:
+        "A google-like mini search engine application with 5k crawled and indexed pages. Worked with 3 other members on both the backend and frontend.",
       techs: ["ReactJS", "Spring Boot", "MongoDB"],
       git: {
-        client: "https://github.com/mohammedgrey/Search-Engine",
-        server: "https://github.com/mohammedgrey/Search-Engine",
+        client: null,
+        server: null,
+        both: "https://github.com/mohammedgrey/Search-Engine",
       },
       API: "https://lookme-up.herokuapp.com/",
       carousel: null,
@@ -40,7 +64,8 @@ const projects = [
     id: 3,
     title: "EgySchools",
     type: "Schools System",
-    image: "https://res.cloudinary.com/dxome9kh1/image/upload/v1623331280/Portfolio/EgySchoolsCarousel%20/1_hysikz.png",
+    image:
+      "https://res.cloudinary.com/dxome9kh1/image/upload/v1623331280/Portfolio/EgySchoolsCarousel%20/1_hysikz.png",
     details: {
       breif:
         "This is the project I worked on during my internship period with Datatec last summer. The project is mainly about creating a system that notifies students about their bus arrival time, upcoming exams and assignments due dates. It is also for parents to be able to track down their children’s progress in the school. And there is an admin panel for the staff and teachers to add bus schedules, due dates, and pretty much manage any interaction done with the system like doing the basic CRUD operations to the users/students/stations/routes/trips/drivers…etc. I have personally taken part in developing both the UI of the student-parent/driver application and the admin panel using Flutter and react.JS respectively. I no longer have access to the repository, as my internship period is over but I am providing a carousel for the pages I have worked on.",
@@ -66,7 +91,8 @@ const projects = [
     title: "Create and Share",
     type: "Social Platform",
     link: "https://createandshare.netlify.app/",
-    image: "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137467/Portfolio/cands_mfrs3m.png",
+    image:
+      "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137467/Portfolio/cands_mfrs3m.png",
     details: {
       breif:
         "A typical social platform. Worked on this project solo. All the basic CRUD operations are included like showing the user profile, adding and changing pictures and videos, following other users...etc on both the frontend and backend. As well as authentication and authorization implemented from scratch from the server side.",
@@ -85,9 +111,11 @@ const projects = [
     title: "Spotify Clone",
     type: "Music App",
     link: null,
-    image: "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137461/Portfolio/spotify_o0hq4e.png",
+    image:
+      "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137461/Portfolio/spotify_o0hq4e.png",
     details: {
-      breif: "A Spotify clone project. Worked on the client side of this project along with 4 other members. My tasks included things like redux management, search page, user page, help page…etc.",
+      breif:
+        "A Spotify clone project. Worked on the client side of this project along with 4 other members. My tasks included things like redux management, search page, user page, help page…etc.",
       techs: ["ReactJS", "Redux", "React Router"],
       git: {
         client: "https://github.com/FatemaFawzy/Frontend-Team",
@@ -99,4 +127,5 @@ const projects = [
     },
   },
 ];
+
 export default projects;

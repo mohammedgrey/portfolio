@@ -8,6 +8,7 @@ import useWindowDimensions from "./CustomHooks/useWindowDimensions";
 
 const Contact = () => {
   const captcha = useRef({});
+  const { width } = useWindowDimensions();
   const dimensions = useWindowDimensions();
   const [loadingEmail, setLoadingEmail] = useState(false);
   const [verified, setVerified] = useState(false);
@@ -28,7 +29,12 @@ const Contact = () => {
 
     try {
       setLoadingEmail(true);
-      await emailjs.sendForm("yahoo", "template_gl6yq68", "sendmeanemail", "user_vkV3ckigggvh4bH9yQ1Nh");
+      await emailjs.sendForm(
+        "yahoo",
+        "template_gl6yq68",
+        "sendmeanemail",
+        "user_vkV3ckigggvh4bH9yQ1Nh"
+      );
       setLoadingEmail(false);
       setFormData({
         name: "",
@@ -55,7 +61,15 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="Contact">
+      <div
+        className="Contact"
+        style={{
+          backgroundRepeat: "no-repeat",
+          backgroundImage: `url("${require("./images/contact.jpg")}")`,
+          backgroundSize: `100% ${width < 500 ? "30%" : width < 700 ? "40%" : "50%"}`,
+        }}
+      >
+        {/* <img style={{ position: "absolute", top: "0px" }} src={require("./images/contact.jpg")} /> */}
         <h1>
           <i class="far fa-envelope"></i>Contact me through email
         </h1>
@@ -66,13 +80,50 @@ const Contact = () => {
       </p> */}
         <form id="sendmeanemail" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
-          <input name="name" type="text" onChange={handleChange} value={formData.name} placeholder="Name"></input>
-          <label htmlFor="email">Email Address {!validateEmail(formData.email) && <span style={{ color: "rgb(41,54,71)", fontWeight: 100, fontFamily: "Georgia" }}>(required)</span>}</label>
-          <input name="email" type="email" onChange={handleChange} value={formData.email} placeholder="Email Address <name@example.com>"></input>
+          <input
+            name="name"
+            type="text"
+            onChange={handleChange}
+            value={formData.name}
+            placeholder="Optional, but preferable."
+          ></input>
+          <label htmlFor="email">
+            Email Address{" "}
+            {!validateEmail(formData.email) && (
+              <span style={{ color: "#404040", fontWeight: 100, fontFamily: "Georgia" }}>
+                required
+              </span>
+            )}
+          </label>
+          <input
+            name="email"
+            type="email"
+            onChange={handleChange}
+            value={formData.email}
+            placeholder="Required, so I can contact you back."
+          ></input>
           <label htmlFor="subject">Email Subject</label>
-          <input name="subject" type="text" onChange={handleChange} value={formData.subject} placeholder="Email Subject"></input>
-          <label htmlFor="message">Email Body {formData.message === "" && <span style={{ color: "rgb(41,54,71)", fontWeight: 100, fontFamily: "Georgia" }}>(required)</span>}</label>
-          <textarea name="message" type="textarea" onChange={handleChange} value={formData.message}></textarea>
+          <input
+            name="subject"
+            type="text"
+            onChange={handleChange}
+            value={formData.subject}
+            placeholder="Optional, but preferable."
+          ></input>
+          <label htmlFor="message">
+            Email Body{" "}
+            {formData.message === "" && (
+              <span style={{ color: "#404040", fontWeight: 100, fontFamily: "Georgia" }}>
+                required
+              </span>
+            )}
+          </label>
+          <textarea
+            name="message"
+            type="textarea"
+            onChange={handleChange}
+            value={formData.message}
+          ></textarea>
           <div style={{ margin: "auto auto" }}>
             <Recaptcha
               // verified={verified}
@@ -100,7 +151,11 @@ const Contact = () => {
             <input
               type="submit"
               value="Send"
-              id={!validateEmail(formData.email) || formData.message === "" || !verified ? "disabled" : "email-submit"}
+              id={
+                !validateEmail(formData.email) || formData.message === "" || !verified
+                  ? "disabled"
+                  : "email-submit"
+              }
               disabled={!validateEmail(formData.email) || formData.message === "" || !verified}
             ></input>
           ) : (
