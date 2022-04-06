@@ -20,6 +20,7 @@ const Projects = (props) => {
               link={project.link}
               title={project.title}
               image={project.image}
+              containImage={project.containImage}
               type={project.type}
               project={project.details}
             />
@@ -37,6 +38,7 @@ const Projects = (props) => {
               link={project.link}
               title={project.title}
               image={project.image}
+              containImage={project.containImage}
               type={project.type}
               project={project.details}
             />
