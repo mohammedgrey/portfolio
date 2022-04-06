@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.627d2ae3.chunk.css",
-    "main.js": "/portfolio/static/js/main.aab3d2a4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aab3d2a4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.629361c7.chunk.css",
+    "main.js": "/portfolio/static/js/main.06206f27.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.06206f27.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.3fc42fd8.chunk.css": "/portfolio/static/css/2.3fc42fd8.chunk.css",
-    "static/js/2.97be0d99.chunk.js": "/portfolio/static/js/2.97be0d99.chunk.js",
-    "static/js/2.97be0d99.chunk.js.map": "/portfolio/static/js/2.97be0d99.chunk.js.map",
+    "static/js/2.3d208e0d.chunk.js": "/portfolio/static/js/2.3d208e0d.chunk.js",
+    "static/js/2.3d208e0d.chunk.js.map": "/portfolio/static/js/2.3d208e0d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f5fedbf2b1fb5ea2c816993e207613c5.js": "/portfolio/precache-manifest.f5fedbf2b1fb5ea2c816993e207613c5.js",
+    "precache-manifest.6ed28176dab7e8b267c8c8cb2861b152.js": "/portfolio/precache-manifest.6ed28176dab7e8b267c8c8cb2861b152.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3fc42fd8.chunk.css.map": "/portfolio/static/css/2.3fc42fd8.chunk.css.map",
-    "static/css/main.627d2ae3.chunk.css.map": "/portfolio/static/css/main.627d2ae3.chunk.css.map",
-    "static/js/2.97be0d99.chunk.js.LICENSE.txt": "/portfolio/static/js/2.97be0d99.chunk.js.LICENSE.txt",
+    "static/css/main.629361c7.chunk.css.map": "/portfolio/static/css/main.629361c7.chunk.css.map",
+    "static/js/2.3d208e0d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3d208e0d.chunk.js.LICENSE.txt",
     "static/media/Datatec.pdf": "/portfolio/static/media/Datatec.0728c4e0.pdf",
+    "static/media/FontClassifier.pdf": "/portfolio/static/media/FontClassifier.f186b7e3.pdf",
+    "static/media/FontClassifier.png": "/portfolio/static/media/FontClassifier.f7be7b08.png",
+    "static/media/Grader.jpg": "/portfolio/static/media/Grader.06f6c3d2.jpg",
+    "static/media/ImageProcessing.pdf": "/portfolio/static/media/ImageProcessing.6bf494b7.pdf",
+    "static/media/Networks.png": "/portfolio/static/media/Networks.6f7ff951.png",
+    "static/media/Processor.pdf": "/portfolio/static/media/Processor.277197e9.pdf",
     "static/media/SearchEngine.pdf": "/portfolio/static/media/SearchEngine.0efaa5a6.pdf",
     "static/media/background.jpg": "/portfolio/static/media/background.ea46f786.jpg",
     "static/media/contact.jpg": "/portfolio/static/media/contact.50afd386.jpg",
@@ -24,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.3fc42fd8.chunk.css",
-    "static/js/2.97be0d99.chunk.js",
-    "static/css/main.627d2ae3.chunk.css",
-    "static/js/main.aab3d2a4.chunk.js"
+    "static/js/2.3d208e0d.chunk.js",
+    "static/css/main.629361c7.chunk.css",
+    "static/js/main.06206f27.chunk.js"
   ]
 }
