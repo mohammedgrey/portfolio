@@ -32,7 +32,7 @@ const Home = () => {
             </div>
             <div className="frame-container">
               <img className="image-frame" src={require("./images/frame.png")} alt="hello"></img>
-              <img className="image-me" src={require("./images/me.jpg")} alt="hello"></img>
+              <img className="image-me" src={require("./images/me.png")} alt="hello"></img>
             </div>
           </div>
           <div className="lower-block">
@@ -54,8 +54,8 @@ const Home = () => {
                   <i className="fab fa-node-js"></i>
                 </div>
                 <div className="technology">
-                  <p>Spring Boot</p>
-                  <i className="fab fa-java"></i>
+                  <p>React Native</p>
+                  <i className="fab fa-react"></i>
                 </div>
                 <div className="technology">
                   <p>Flutter</p>

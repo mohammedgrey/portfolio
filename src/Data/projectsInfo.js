@@ -95,8 +95,8 @@ const projects = [
       "https://res.cloudinary.com/dxome9kh1/image/upload/v1623137467/Portfolio/cands_mfrs3m.png",
     details: {
       breif:
-        "A typical social platform. Worked on this project solo. All the basic CRUD operations are included like showing the user profile, adding and changing pictures and videos, following other users...etc on both the frontend and backend. As well as authentication and authorization implemented from scratch from the server side.",
-      techs: ["NodeJS", "Express", "ReactJS", "MongoDB"],
+        "A typical social platform. Worked on this project solo. It has a web version made with React.JS and Mobile version with React Native. All the basic CRUD operations are included like showing the user profile, adding and changing pictures and videos, following other users...etc on both the frontend and backend. As well as authentication and authorization implemented from scratch from the server side.",
+      techs: ["NodeJS", "Express", "ReactJS", "React Native", "MongoDB"],
       git: {
         client: "https://github.com/mohammedgrey/createandshare",
         server: "https://github.com/mohammedgrey/createandshareserver",
